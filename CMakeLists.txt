@@ -8,7 +8,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 include_directories(${CMAKE_SOURCE_DIR}/Crow-master/include)
 
 # Asio headers (folder containing asio.hpp)
-include_directories("C:/Users/yakup/CLionProjects/MyCrowAPI/asio-master/asio/include")
+include_directories("path_to_asio")
 
 add_executable(MyCrowAPI main.cpp)
 
